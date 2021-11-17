@@ -1,6 +1,14 @@
+:root {
+  --single-border:black;    
+  --color:wheat;  
+  --main-height: 300px;
+}
+
+
+
 header {
-    background-color:black;
-    color:wheat;
+    background-color:var(--single-border);
+    color:var(--color);
     padding: 30px 15px;
     font-size: 24px;
     display:flex;
@@ -8,13 +16,13 @@ header {
     text-align: center;  
 }
  header a{
-     color:wheat;
+     color:var(--color)at;
      text-decoration: none;
  }
 
 article{
    display: flex;
-   height: 300px;
+   height: var(--main-height);
    text-align:center; 
    padding: 50px;
    margin: 75px 0;
@@ -32,7 +40,7 @@ h2{
 }
 
 div {
-    border-left: black solid 5px;
+    border-left: var(--single-border) solid 5px;
     padding-left: 50px;
 }
 
@@ -53,7 +61,7 @@ article img {
 .work {
     display:flex;
     flex-wrap: wrap; 
-    border-left:black solid 5px;
+    border-left: var(--single-border) solid 5px;
 }
 
 #projects #first-project img {
@@ -69,7 +77,7 @@ article img {
 }
 
 #projects #first-project {
-    height: 300px;
+    height: var(--main-height);
     flex-basis: 100%;
 }
 
@@ -95,18 +103,21 @@ article img {
     margin:0 24px;
     padding: 0 24px;
     font-size:24px;
-    justify-content:end;
+    
      
 }
 
 .contacts{
     display:flex;
     flex-wrap:wrap;
-    border-left:black solid 5px;
+    border-left: var(--single-border) solid 5px;
     padding-left:150px;
 }
 
 footer{
-    background-color: black;
-    height: 60px;
+    background-color: var(--single-border);
+    padding: 30px 15px;
+    color: var(--color);
+    text-align:center;
+    font-size: 24px;
 }
