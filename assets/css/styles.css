@@ -1,43 +1,39 @@
 header {
     background-color:black;
-    height: 60px;
-    padding-top:15px;
-    text-align:right;
-    
-}
-
-header nav a {
-    padding:12px;
-    margin: 8px;
-    font-size:24px;
-    text-decoration: none;
     color:wheat;
-    
-    
+    padding: 30px 15px;
+    font-size: 24px;
+    display:flex;
+    justify-content: space-between;
+    text-align: center;  
 }
-
-h1 {
-text-align:center;
-font-size: 48px;
-margin: 24px 0;
-padding-top:24px;
-}
+ header a{
+     color:wheat;
+     text-decoration: none;
+ }
 
 article{
-   padding: 24px;
+   display: flex;
    height: 300px;
-   border-left:black solid 5px;
-   margin: 32px 32px 100px 20%;
-  
-    
+   text-align:center; 
+   padding: 50px;
+   margin: 75px 0;
+
+}
+
+p {
+    width: 90%;
 }
 
 h2{
     font-size:48px;
-    position: relative;
-    left: -300px;
-    top: 125px;
+    margin: auto;
+    padding-right: 45px;
+}
 
+div {
+    border-left: black solid 5px;
+    padding-left: 50px;
 }
 
 article img {
@@ -45,26 +41,19 @@ article img {
     margin-right: 24px;
 }
 
-#projects 
-{  
+#projects {  
     display:flex;
-    flex-wrap: wrap;
     text-align: center;  
-    border-left:black solid 5px;
-    margin: 32px 32px 100px 20%;;
+    margin-bottom: 75px;
 }
 
 #projects h2 {
-    top:300px;
-    left:-275px;
+    padding: 0 22px;
 }
-span {
-    text-align: center; 
-}
-
-
-#projects {
-    width: auto;
+.work {
+    display:flex;
+    flex-wrap: wrap; 
+    border-left:black solid 5px;
 }
 
 #projects #first-project img {
@@ -74,6 +63,7 @@ span {
 }
 
 #projects a img {
+    width: 400px;
     height: 200px;
     margin-bottom: 24px;
 }
@@ -85,29 +75,35 @@ span {
 
 #projects  a {
     flex-basis:50%;  
-}
+} 
 
 #contact {
+    display: flex;
     padding: 24px;
     height: 125px;
-    border-left:black solid 5px;
-    margin: 32px 32px 100px 20%;
     text-align: center;
+    width: 100%;
+    margin-bottom: 75px;
 
 }
-
 #contact h2 {
- top: 20px;
- left: -315px;
- text-align: left;
+    margin:0;
+    padding:15px;
 }
 
 #contact a {
     margin:0 24px;
     padding: 0 24px;
     font-size:24px;
-    
-    
+    justify-content:end;
+     
+}
+
+.contacts{
+    display:flex;
+    flex-wrap:wrap;
+    border-left:black solid 5px;
+    padding-left:150px;
 }
 
 footer{
