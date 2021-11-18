@@ -14,7 +14,7 @@
  
 ## Visual
 
-![Portfolio Website]()
+![Portfolio Website](./assets/images/portfolioscreenshot.png)
 
 
 ## Usage 
