@@ -121,3 +121,56 @@ footer{
     text-align:center;
     font-size: 24px;
 }
+
+@media screen and (max-width: 992px) {
+    div {
+        width: 50%;
+    }
+    article {
+        padding: 0;
+    }
+    article img {
+        float: none;
+        margin-bottom: 25px;
+    }
+
+    #projects #first-project img {
+        width: 450px;
+    }
+
+    h2{
+        font-size: 32px;
+        padding: 0 12px;
+        margin: 0;
+    }
+    .work{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    .contacts{
+        padding-left:0;
+    }
+
+    #contact {
+        padding: 0
+    }
+    #contact h2 {
+        padding: 26px;
+    }
+
+    #contact a {
+        width: 40%;
+        padding: 10px;
+        font-size: 20px;
+        margin: 0;
+
+    }
+
+    
+}
+
+@media screen and (max-width: 768px) {
+
+    
+}
