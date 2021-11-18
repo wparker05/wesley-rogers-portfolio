@@ -15,9 +15,23 @@ header {
     justify-content: space-between;
     text-align: center;  
 }
+
+h1 {
+    padding:8px;
+    background-color: var(--color);
+    color: var(--single-border);
+}
+
  header a{
      color:var(--color)at;
      text-decoration: none;
+     padding: 0 15px;
+ }
+
+ header a:hover {
+    padding: 0 15px;
+    background-color: var(--color);
+    color: var(--single-border);
  }
 
 article{
@@ -29,9 +43,7 @@ article{
 
 }
 
-p {
-    width: 90%;
-}
+
 
 h2{
     font-size:48px;
@@ -123,14 +135,22 @@ footer{
 }
 
 @media screen and (max-width: 992px) {
-    div {
-        width: 50%;
+    header {
+        font-size: 18px;
     }
+
+   
+    article h2 {
+        padding: 0 40px;
+    }
+    p {
+        padding-right: 25px;
+    }
+  
     article {
         padding: 0;
     }
     article img {
-        float: none;
         margin-bottom: 25px;
     }
 
@@ -147,9 +167,10 @@ footer{
         display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
+        padding-left: 150px;
     }
     .contacts{
-        padding-left:0;
+        padding-left: 150px;
     }
 
     #contact {
@@ -172,5 +193,13 @@ footer{
 
 @media screen and (max-width: 768px) {
 
+
+    .work{
+        padding-left: 52px;
+    }
     
+
+    .contacts {
+        padding-left: 35px;
+    }
 }
