@@ -54,10 +54,10 @@ h2{
     padding-right: 45px;
 }
 
-div {
+.about-me{
     border-left: var(--single-border) solid 5px;
     padding-left: 50px;
-}
+} 
 
 article img {
     float: left; 
@@ -67,6 +67,7 @@ article img {
 #projects {  
     display:flex;
     text-align: center;  
+    justify-content: center;
     margin-bottom: 75px;
 }
 
@@ -76,29 +77,43 @@ article img {
 .work {
     display:flex;
     flex-wrap: wrap; 
+    text-align: center;
     border-left: var(--single-border) solid 5px;
 }
 
-#projects #first-project img {
-    width: 600px;
-    height: 250px;
+div nav a {
+    padding: 0 15px;
+    text-decoration: none;
+}
+
+  #first-project img {
+    height: 350px;
     margin: 24px;
-}
-
-#projects a img {
-    width: 400px;
-    height: 200px;
-    margin-bottom: 24px;
-}
-
-#projects #first-project {
-    height: var(--main-height);
-    flex-basis: 100%;
-}
-
-#projects  a {
-    flex-basis:50%;  
+   
 } 
+h3{
+    margin-bottom: 30px;
+}
+#first-project {
+    flex-basis: 100%;
+    padding-bottom:50px;
+} 
+
+ .samples img {
+    
+    height: 243px;
+    margin-bottom: 50px;
+}
+
+ 
+
+.samples{
+    flex-basis:50%;  
+}   
+
+.all-a {
+    display:inline-block;
+}
 
 #contact {
     display: flex;
