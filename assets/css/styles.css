@@ -36,7 +36,7 @@ h1 {
 
 article{
    display: flex;
-   height: var(--main-height);
+   /* height: var(--main-height); */
    text-align:center; 
    padding: 50px;
    margin: 75px 0;
@@ -54,15 +54,21 @@ h2{
     padding-right: 45px;
 }
 
-.about-me{
+.about-me{ 
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
     border-left: var(--single-border) solid 5px;
     padding-left: 50px;
 } 
 
-article img {
-    float: left; 
-    margin-right: 24px;
+
+.about-me p {
+    flex-basis: 70%;
+    padding-left: 50px;
 }
+
+
 
 #projects {  
     display:flex;
