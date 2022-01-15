@@ -212,6 +212,9 @@ footer{
 
     }
 
+    article h2, h2 {
+        margin: auto;
+    }
     
 }
 
@@ -219,11 +222,104 @@ footer{
 
 
     .work{
-        padding-left: 52px;
+        padding-left: 25px;
     }
     
+    .samples {
+        margin-top: 35px;
+    }
 
     .contacts {
         padding-left: 35px;
+    }
+
+    
+}
+
+
+@media screen and (max-width: 540px) {
+    .about-me, .contacts {
+        border-left: none;
+    }
+
+    h1 {
+        display: none;
+    }
+
+    header a {
+        padding: 0 25px;
+    }
+
+    article h2, h2 {
+        padding: 0;
+        margin: 0 0 25px 0 ;
+    }
+
+    article, #projects, #contact {
+        display: block;
+    }
+
+    .about-me p{
+        flex-basis:80%;
+        padding: 0;
+    }
+
+    .work {
+        border: none;
+    }
+
+    #first-project img {
+        height: 220px;
+    }
+
+    .samples img {
+        height: 150px;
+    }
+
+    .contacts {
+        flex-direction: column;
+        padding: 0;
+        justify-content: center;
+       
+    }
+     #contact {
+         height: 100%;
+     }
+    #contact a {
+       width: 100%;
+       margin: 0 0 15px 0;
+       padding: 0; 
+    }
+}
+
+
+@media screen and (max-width:414px){
+    header a {
+           padding: 0 8px;
+       }
+
+       .about-me {
+        padding: 0; 
+    }
+   } 
+
+
+
+@media screen and (max-width: 375px) {
+
+    header a {
+        padding: 0 5px;
+    }
+
+    #first-project img {
+        margin: 0;
+    }
+
+    .samples img {
+        height: 130px;
+    }
+
+    .work {
+        padding: 0;
     }
 }
