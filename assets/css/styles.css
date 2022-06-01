@@ -80,6 +80,7 @@ h2{
 #projects h2 {
     padding: 0 22px;
 }
+
 .work {
     display:flex;
     flex-wrap: wrap; 
@@ -93,7 +94,7 @@ div nav a {
 }
 
   #first-project img {
-    height: 350px;
+    height: 250px;
     margin: 24px;
    
 } 
@@ -114,7 +115,8 @@ h3{
  
 
 .samples{
-    flex-basis:50%;  
+    flex-basis:50%; 
+    padding-bottom: 50px; 
 }   
 
 .all-a {
@@ -269,7 +271,7 @@ footer{
     }
 
     #first-project img {
-        height: 220px;
+        height: 152px;
     }
 
     .samples img {
